@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        RecyclerView recyclerView = findViewById(R.id.Recycle);
+        RecyclerView recyclerView = findViewById(R.id.historicEventsRecycler);
         fillTheModels();
 
         AdaptadorDeEventosRV adaptador = new AdaptadorDeEventosRV(this, eventosHistoricos);
